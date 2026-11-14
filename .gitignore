@@ -218,3 +218,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data and large files
+data/
+*.gz
+*.h5ad
+*.zip
+*.sh
