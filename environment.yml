@@ -1,0 +1,19 @@
+name: fibro-celltype
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - seaborn
+  - scanpy
+  - h5py
+  - scipy
+  - matplotlib
+  - requests
+  - pandas
+  - tqdm
+  - numpy
+  - anndata
+  - pyarrow
+  - jupyterlab
+  - statsmodels
+prefix: /home/matthew/miniconda3/envs/fibro-celltype
