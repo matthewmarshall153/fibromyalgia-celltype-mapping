@@ -1,0 +1,218 @@
+{
+  "n_variants_raw": 12137689,
+  "missing_per_column": {
+    "chromosome": 0,
+    "base_pair_location": 0,
+    "effect_allele": 0,
+    "other_allele": 0,
+    "beta": 0,
+    "standard_error": 0,
+    "effect_allele_frequency": 0,
+    "p_value": 0,
+    "rsid": 0,
+    "n": 0,
+    "n_eff": 0
+  },
+  "invalid_p": 0,
+  "invalid_se": 34038,
+  "invalid_eaf": 0,
+  "n_variants_after_filter": 12103651,
+  "duplicate_chr_pos_alleles": 0,
+  "duplicate_rsid": 835067,
+  "chromosome_counts": {
+    "2": 976639,
+    "1": 914431,
+    "4": 840448,
+    "3": 823006,
+    "6": 785473,
+    "5": 747584,
+    "7": 697258,
+    "8": 626932,
+    "10": 604213,
+    "11": 574629,
+    "12": 571615,
+    "9": 504807,
+    "13": 428308,
+    "14": 383219,
+    "23": 369793,
+    "16": 365387,
+    "15": 338388,
+    "18": 333369,
+    "17": 332883,
+    "19": 291041,
+    "20": 267467,
+    "22": 168519,
+    "21": 158242
+  },
+  "n_eff_quantiles": {
+    "0.01": 55708.990228565,
+    "0.05": 73537.36747222001,
+    "0.25": 134477.37578765,
+    "0.5": 173765.74536938,
+    "0.75": 175393.505955415,
+    "0.8": 175658.14226898,
+    "0.95": 177851.26287658
+  },
+  "n_quantiles": {
+    "0.01": 766344.0,
+    "0.05": 859146.0,
+    "0.25": 1753267.5,
+    "0.5": 2312499.0,
+    "0.75": 2312532.0,
+    "0.8": 2312535.0,
+    "0.95": 2312543.0
+  },
+  "lambda_gc": 1.2247354972768905,
+  "n_genome_wide_significant_variants": 828,
+  "top10": [
+    {
+      "rsid": "rs149109767",
+      "chromosome": "4",
+      "base_pair_location": 3228683,
+      "effect_allele": "A",
+      "other_allele": "AGAG",
+      "beta": 0.09640049189329147,
+      "p_value": 5.493e-14
+    },
+    {
+      "rsid": "rs362307",
+      "chromosome": "4",
+      "base_pair_location": 3240118,
+      "effect_allele": "T",
+      "other_allele": "C",
+      "beta": 0.09458263963460922,
+      "p_value": 1.63e-13
+    },
+    {
+      "rsid": "rs72239206",
+      "chromosome": "4",
+      "base_pair_location": 3140933,
+      "effect_allele": "C",
+      "other_allele": "CACTT",
+      "beta": 0.0925791785120964,
+      "p_value": 3.521e-13
+    },
+    {
+      "rsid": "rs35319653",
+      "chromosome": "4",
+      "base_pair_location": 139982001,
+      "effect_allele": "T",
+      "other_allele": "C",
+      "beta": -0.05003093183040619,
+      "p_value": 1.985e-11
+    },
+    {
+      "rsid": "rs34581718",
+      "chromosome": "4",
+      "base_pair_location": 139984441,
+      "effect_allele": "CCT",
+      "other_allele": "C",
+      "beta": -0.049715593457221985,
+      "p_value": 2.66e-11
+    },
+    {
+      "rsid": "rs12505942",
+      "chromosome": "4",
+      "base_pair_location": 139985236,
+      "effect_allele": "C",
+      "other_allele": "T",
+      "beta": -0.049715593457221985,
+      "p_value": 2.707e-11
+    },
+    {
+      "rsid": "rs13136239",
+      "chromosome": "4",
+      "base_pair_location": 139987601,
+      "effect_allele": "A",
+      "other_allele": "G",
+      "beta": -0.04940035194158554,
+      "p_value": 3.434e-11
+    },
+    {
+      "rsid": "rs76034781",
+      "chromosome": "4",
+      "base_pair_location": 3271055,
+      "effect_allele": "A",
+      "other_allele": "G",
+      "beta": 0.08342161029577255,
+      "p_value": 4.336e-11
+    },
+    {
+      "rsid": "rs35808740",
+      "chromosome": "4",
+      "base_pair_location": 139988087,
+      "effect_allele": "G",
+      "other_allele": "T",
+      "beta": -0.04929529130458832,
+      "p_value": 6.273e-11
+    },
+    {
+      "rsid": "rs1877075",
+      "chromosome": "4",
+      "base_pair_location": 140004716,
+      "effect_allele": "A",
+      "other_allele": "G",
+      "beta": -0.04898018389940262,
+      "p_value": 1.266e-10
+    }
+  ],
+  "lead_variants_found": [
+    {
+      "rsid": "rs6748639",
+      "effect_allele": "T",
+      "other_allele": "C",
+      "beta": 0.04736057296395302,
+      "odds_ratio": 1.048500001681915,
+      "p_value": 4.278e-09
+    },
+    {
+      "rsid": "rs359243",
+      "effect_allele": "C",
+      "other_allele": "T",
+      "beta": 0.038643624633550644,
+      "odds_ratio": 1.0394000010823752,
+      "p_value": 8.875e-08
+    },
+    {
+      "rsid": "rs9862795",
+      "effect_allele": "T",
+      "other_allele": "A",
+      "beta": 0.04363403841853142,
+      "odds_ratio": 1.0446000014608419,
+      "p_value": 6.268e-10
+    },
+    {
+      "rsid": "rs149109767",
+      "effect_allele": "A",
+      "other_allele": "AGAG",
+      "beta": 0.09640049189329147,
+      "odds_ratio": 1.1011999973648023,
+      "p_value": 5.493e-14
+    },
+    {
+      "rsid": "rs809955",
+      "effect_allele": "A",
+      "other_allele": "G",
+      "beta": -0.045729853212833405,
+      "odds_ratio": 0.9552999985606886,
+      "p_value": 5.022e-10
+    },
+    {
+      "rsid": "rs1788821",
+      "effect_allele": "G",
+      "other_allele": "A",
+      "beta": -0.04186420515179634,
+      "odds_ratio": 0.9589999989900795,
+      "p_value": 1.189e-08
+    },
+    {
+      "rsid": "rs62100765",
+      "effect_allele": "T",
+      "other_allele": "C",
+      "beta": 0.04392118752002716,
+      "odds_ratio": 1.0449000004828473,
+      "p_value": 6.04e-10
+    }
+  ],
+  "lead_variants_not_found": []
+}
