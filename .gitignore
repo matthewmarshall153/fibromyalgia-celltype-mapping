@@ -225,3 +225,4 @@ data/
 *.h5ad
 *.zip
 *.sh
+tools/
