@@ -1,0 +1,12 @@
+{
+  "gwas_variants_in": 12103651,
+  "n_eff_threshold": 118290.807221715,
+  "removed_low_n_eff": 2504838,
+  "removed_duplicate_keys": 24905,
+  "gwas_variants_after_filters": 9573908,
+  "reference_variants": 41941265,
+  "matched_before_id_dedup": 9304213,
+  "rows_with_duplicated_reference_id": 0,
+  "final_variants": 9304213,
+  "fraction_of_gwas_matched": 0.9718302076853047
+}
