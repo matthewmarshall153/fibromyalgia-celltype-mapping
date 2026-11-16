@@ -1,0 +1,35 @@
+# TOTAL_GENES = 19758
+# TEST_DIRECTION = one-sided, positive (set), two-sided (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                         SET    1886   -0.0076692   -0.0022536     0.023483      0.62801 Miscellaneous
+Microglia                             SET    1891     -0.05614    -0.016516      0.02355      0.99143 Microglia
+Vascular                              SET    1888    -0.050402    -0.014818      0.02333      0.98462 Vascular
+Fibroblast                            SET    1899    -0.050571    -0.014906     0.023289      0.98504 Fibroblast
+Oligodendrocyte_precursor             SET    1893      0.01189    0.0034996     0.023671      0.30773 Oligodendrocyte_precursor
+Committed_oligodendrocyte_pr...       SET    1887    0.0052941     0.001556     0.022705      0.40782 Committed_oligodendrocyte_precursor
+Oligodendrocyte                       SET    1898     0.012127    0.0035736     0.022938      0.29852 Oligodendrocyte
+Astrocyte                             SET    1893    -0.035289    -0.010387      0.02333      0.93479 Astrocyte
+Ependymal                             SET    1894     -0.04693    -0.013817     0.023492      0.97711 Ependymal
+Choroid_plexus                        SET    1902    -0.045251    -0.013347      0.02302      0.97533 Choroid_plexus
+Deep_layer_near_projecting            SET    1893    0.0065049    0.0019146     0.023034      0.38882 Deep_layer_near_projecting
+Deep_layer_corticothalamic_a...       SET    1889     0.037193     0.010937     0.023404     0.056024 Deep_layer_corticothalamic_and_6b
+Hippocampal_CA1_3                     SET    1889     0.031437    0.0092442     0.023309      0.08873 Hippocampal_CA1_3
+Upper_layer_intratelencephal...       SET    1884     0.062352     0.018313     0.023147    0.0035369 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic         SET    1891     0.043726     0.012864     0.023427     0.030999 Deep_layer_intratelencephalic
+Amygdala_excitatory                   SET    1892     0.044054     0.012964     0.022958      0.02751 Amygdala_excitatory
+Hippocampal_CA4                       SET    1890     0.018804    0.0055308     0.023458      0.21139 Hippocampal_CA4
+Hippocampal_dentate_gyrus             SET    1888   -0.0059917   -0.0017615      0.02335      0.60125 Hippocampal_dentate_gyrus
+Medium_spiny_neuron                   SET    1877     0.018245    0.0053497     0.023335      0.21715 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron         SET    1876     0.039131     0.011471     0.023028     0.044642 Eccentric_medium_spiny_neuron
+Splatter                              SET    1875    -0.055035     -0.01613     0.023352      0.99078 Splatter
+MGE_interneuron                       SET    1897     0.019132    0.0056365     0.023283      0.20563 MGE_interneuron
+LAMP5_LHX6_and_Chandelier             SET    1897     0.041167     0.012128     0.023429     0.039457 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                       SET    1886     0.033058    0.0097142     0.023186     0.076972 CGE_interneuron
+Upper_rhombic_lip                     SET    1903  -0.00060344  -0.00017803     0.023665      0.51017 Upper_rhombic_lip
+Cerebellar_inhibitory                 SET    1882    0.0014831   0.00043538     0.023051      0.47435 Cerebellar_inhibitory
+Lower_rhombic_lip                     SET    1888    0.0056242    0.0016535     0.023121      0.40391 Lower_rhombic_lip
+Mammillary_body                       SET    1894    0.0032544   0.00095813     0.023273       0.4444 Mammillary_body
+Thalamic_excitatory                   SET    1885   -0.0039323   -0.0011552     0.023409       0.5667 Thalamic_excitatory
+Midbrain_derived_inhibitory           SET    1886     0.057084     0.016774     0.023601    0.0077945 Midbrain_derived_inhibitory
+Bergmann_glia                         SET    1895   -0.0045033   -0.0013261      0.02327      0.57672 Bergmann_glia
