@@ -110,7 +110,7 @@ Path("results").mkdir(exist_ok=True)
 pd.DataFrame({"SNP": m["snp"], "P": m["p_value"], "N": m["n_eff"].round().astype(int)}) \
     .to_csv(f"{prefix}.pval", sep="\t", index=False, float_format="%.6g")
 pd.DataFrame({"SNP": m["snp"], "CHR": m["chr"], "BP": m["pos"]}) \
-    .to_csv(f"{prefix}.snploc", sep="\t", index=False)
+    .to_csv(f"{prefix}.snploc", sep="\t", index=False, header=False)
 with open("results/magma_input_summary.json", "w") as fh:
     json.dump(summary, fh, indent=2)
 print(f"Wrote {prefix}.pval, {prefix}.snploc and results/magma_input_summary.json")

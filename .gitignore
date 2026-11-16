@@ -226,3 +226,5 @@ data/
 *.zip
 *.sh
 tools/
+results/magma/fibro_batch*
+results/magma/*.genes.raw
