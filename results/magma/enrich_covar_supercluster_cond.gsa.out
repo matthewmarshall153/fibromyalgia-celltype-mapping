@@ -1,0 +1,36 @@
+# TOTAL_GENES = 18988
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = pan_neuronal (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   18988      0.15682    0.0039929      0.29885      0.29988 Miscellaneous
+Microglia                           COVAR   18988    -0.084394   -0.0086981     0.076187        0.866 Microglia
+Vascular                            COVAR   18988     -0.12629     -0.01007     0.092918      0.91294 Vascular
+Fibroblast                          COVAR   18988     -0.11885   -0.0075197      0.11859      0.84187 Fibroblast
+Oligodendrocyte_precursor           COVAR   18988      0.13644    0.0039631      0.26568      0.30379 Oligodendrocyte_precursor
+Committed_oligodendrocyte_pr...     COVAR   18988      0.16396    0.0051098      0.24712      0.25351 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   18988      0.24037     0.010999      0.17458      0.08429 Oligodendrocyte
+Astrocyte                           COVAR   18988    0.0042921   0.00017597      0.19373      0.49116 Astrocyte
+Ependymal                           COVAR   18988     -0.12796   -0.0095859     0.097077      0.90625 Ependymal
+Choroid_plexus                      COVAR   18988      -0.2012    -0.010678       0.1365      0.92975 Choroid_plexus
+Deep_layer_near_projecting          COVAR   18988     0.086227    0.0021478      0.31496      0.39213 Deep_layer_near_projecting
+Deep_layer_corticothalamic_a...     COVAR   18988      0.68277     0.015017       0.3689     0.032109 Deep_layer_corticothalamic_and_6b
+Hippocampal_CA1_3                   COVAR   18988      0.84402      0.01925      0.34757    0.0075907 Hippocampal_CA1_3
+Upper_layer_intratelencephal...     COVAR   18988      0.76182     0.016201      0.39837     0.027924 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   18988      0.84026     0.017451      0.40813     0.019765 Deep_layer_intratelencephalic
+Amygdala_excitatory                 COVAR   18988       0.5051     0.010193      0.41305       0.1107 Amygdala_excitatory
+Hippocampal_CA4                     COVAR   18988      0.26264    0.0058102      0.34804      0.22525 Hippocampal_CA4
+Hippocampal_dentate_gyrus           COVAR   18988      0.25664    0.0057389      0.34523      0.22863 Hippocampal_dentate_gyrus
+Medium_spiny_neuron                 COVAR   18988      0.27178    0.0069151      0.30541      0.18677 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   18988       1.0434     0.020813      0.39595    0.0042092 Eccentric_medium_spiny_neuron
+Splatter                            COVAR   18988     -0.30148   -0.0096825      0.24769      0.88822 Splatter
+MGE_interneuron                     COVAR   18988       0.3017    0.0061223      0.39199      0.22075 MGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   18988      0.94508     0.020172      0.36234    0.0045548 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   18988      0.73631     0.016744      0.33948     0.015053 CGE_interneuron
+Upper_rhombic_lip                   COVAR   18988     0.030898    0.0010664      0.21857      0.44379 Upper_rhombic_lip
+Cerebellar_inhibitory               COVAR   18988      0.28618    0.0082482      0.25293      0.12894 Cerebellar_inhibitory
+Lower_rhombic_lip                   COVAR   18988     -0.14348   -0.0044806      0.24129      0.72395 Lower_rhombic_lip
+Mammillary_body                     COVAR   18988      0.21823    0.0052639      0.32412      0.25038 Mammillary_body
+Thalamic_excitatory                 COVAR   18988    -0.056021    -0.001617      0.27063        0.582 Thalamic_excitatory
+Midbrain_derived_inhibitory         COVAR   18988      0.81714     0.020702       0.3048    0.0036755 Midbrain_derived_inhibitory
+Bergmann_glia                       COVAR   18988      0.10349    0.0039298      0.20148      0.30374 Bergmann_glia

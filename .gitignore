@@ -228,3 +228,6 @@ data/
 tools/
 results/magma/fibro_batch*
 results/magma/*.genes.raw
+results/magma/*.gsa.genes.out
+results/magma/*.gsa.sets.genes.out
+results/magma/fibro.genes.annot
